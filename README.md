@@ -13,6 +13,9 @@ The dataset consists of survey data collected from Universitas Negeri Padang stu
 8. **Mistakes (X8):** Fear of making mistakes during the presentation.
 9. **Negative Result (X9):** Worry about receiving negative feedback or outcomes.
 
+## Data
+The dataset used is processed data without any personal information : [View Processed Data](https://docs.google.com/spreadsheets/d/1UXRDB_7Yplv1DFCyZF4BsCoppb9mI2jf/edit?usp=drive_link&ouid=109276743875903220779&rtpof=true&sd=true). Predictors (X1-X9) have been summarized (e.g., median), and the response variable (Y) has been categorized into 1 (low), 2 (moderate), and 3 (high).
+
 ## Methods
 - **Ordinal Logistic Regression with the Partial Proportional Odds Assumption**, this method was used because the Brant test showed that some predictor variables violated the proportional odds assumption. The partial proportional odds model allows certain variables to have different effects across PSA levels, providing a more flexible and accurate analysis.
 - **Elastic-Net Regularization**, was applied for feature selection and to handle potential multicollinearity. Even without multicollinearity, Elastic-Net effectively identifies significant factors by combining LASSO and Ridge penalties.
